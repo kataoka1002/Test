@@ -43,7 +43,7 @@ void Player::Update()
 	//上ボタンはenButtonUp、下ボタンはenButtonDownです。
 	
 	//Hands On 4 重力を加えてみよう。
-	position.y -= 0.5f;
+	position.y -= 50.5f;
 
 	//Hands On 5 キャラクターのy座標を制限してみよう。
 	if (position.y <= 0.0f)
